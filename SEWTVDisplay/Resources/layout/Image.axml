@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout
+		android:id="@+id/relativeLayout1"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView
+			android:text="Inline: ALL DEFECT from 20181117 to 20181120"
+			android:layout_width="665.0dp"
+			android:layout_height="40.0dp"
+			android:textSize="17dp"
+			android:id="@+id/tvImageList" />
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="120.0dp"
+			android:layout_height="160.0dp"
+			android:id="@+id/imImage1"
+			android:layout_marginTop="50.0dp"
+			android:layout_marginLeft="20.0dp" />
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="120.0dp"
+			android:layout_height="160.0dp"
+			android:id="@+id/imImage2"
+			android:layout_toRightOf="@id/imImage1"
+			android:layout_marginTop="50.0dp"
+			android:layout_marginLeft="20.0dp" />
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="120.0dp"
+			android:layout_height="160.0dp"
+			android:id="@+id/imImage3"
+			android:layout_toRightOf="@id/imImage2"
+			android:layout_marginTop="50.0dp"
+			android:layout_marginLeft="20.0dp" />
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="120.0dp"
+			android:layout_height="160.0dp"
+			android:id="@+id/imImage4"
+			android:layout_toRightOf="@id/imImage3"
+			android:layout_marginTop="50.0dp"
+			android:layout_marginLeft="20.0dp" />
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="120.0dp"
+			android:layout_height="160.0dp"
+			android:id="@+id/imImage5"
+			android:layout_below="@id/imImage1"
+			android:layout_marginTop="20.0dp"
+			android:layout_marginLeft="20.0dp" />
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="120.0dp"
+			android:layout_height="160.0dp"
+			android:id="@+id/imImage6"
+			android:layout_toRightOf="@id/imImage5"
+			android:layout_below="@id/imImage1"
+			android:layout_marginTop="20.0dp"
+			android:layout_marginLeft="20.0dp" />
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="120.0dp"
+			android:layout_height="160.0dp"
+			android:id="@+id/imImage7"
+			android:layout_toRightOf="@id/imImage6"
+			android:layout_below="@id/imImage1"
+			android:layout_marginTop="20.0dp"
+			android:layout_marginLeft="20.0dp" />
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="120.0dp"
+			android:layout_height="160.0dp"
+			android:id="@+id/imImage8"
+			android:layout_toRightOf="@id/imImage7"
+			android:layout_below="@id/imImage1"
+			android:layout_marginTop="20.0dp"
+			android:layout_marginLeft="20.0dp" />
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="337.5dp"
+			android:layout_height="442.5dp"
+			android:id="@+id/imShowImage"
+			android:layout_marginTop="5.0dp"
+			android:layout_marginLeft="666.0dp" />
+		<TextView
+			android:text="Operator ID"
+			android:layout_width="333.0dp"
+			android:layout_height="58.0dp"
+			android:id="@+id/tvImageDetail"
+			android:textSize="13dp"
+			android:layout_marginTop="7.0dp"
+			android:layout_marginLeft="687.0dp"
+			android:layout_below="@id/imShowImage"
+			android:layout_marginBottom="0.0dp" />
+		<Button
+			android:text="Prev Page"
+			android:layout_width="100.0dp"
+			android:layout_height="50.0dp"
+			android:id="@+id/btPrevPage"
+			android:layout_below="@id/imImage5"
+			android:layout_marginTop="15.0dp"
+			android:layout_marginLeft="20dp"/>
+		<TextView
+			android:text="1 (7) | 8 (15)"
+			android:layout_width="180.0dp"
+			android:layout_height="40.0dp"
+			android:id="@+id/tvPageNo"
+			android:layout_below="@id/imImage5"
+			android:textSize="30dp"
+			android:layout_marginTop="16.0dp"
+			android:layout_marginLeft="154.0dp"/>
+		<Button
+			android:text="Next Page"
+			android:layout_width="100.0dp"
+			android:layout_height="50.0dp"
+			android:id="@+id/btNextPage"
+			android:layout_below="@id/imImage5"
+			android:layout_toRightOf="@id/btPrevPage"
+			android:layout_marginTop="15.0dp"
+			android:layout_marginLeft="344.0dp"/>
+		<Spinner
+			android:layout_width="319.0dp"
+			android:layout_height="36.0dp"
+			android:id="@+id/spMyfilter"
+			android:layout_below="@id/btPrevPage"
+			android:layout_marginLeft="20dp"/>
+		<TextView
+			android:text="Detail"
+			android:layout_width="167.0dp"
+			android:layout_height="54.0dp"
+			android:id="@+id/tvdetail"
+			android:layout_below="@id/tvPageNo"
+			android:textSize="10dp"
+			android:layout_marginTop="11.0dp"
+			android:layout_marginLeft="395.0dp"/>
+	</RelativeLayout>
+</ScrollView>

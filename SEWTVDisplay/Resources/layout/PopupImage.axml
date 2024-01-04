@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:scrollbars="horizontal|vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<HorizontalScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<RelativeLayout
+			android:id="@+id/rlPopupImg1"
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<ImageView
+				android:src="@android:drawable/ic_menu_gallery"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/imageView1" />
+		</RelativeLayout>
+	</HorizontalScrollView>
+</ScrollView>
